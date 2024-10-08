@@ -1,0 +1,341 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Playfair Display";
+}
+
+hr {
+  bottom: 127px;
+  position: relative;
+  left: 76px;
+  width: 84%;
+}
+
+
+a {
+  color: black;
+  text-decoration: none;
+  outline: none;
+  list-style: none;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+
+}
+
+.logo img {
+  width: 150px;
+  margin-left: 140px;
+  cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  margin-left: 150px;
+  font-size: 19px;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 80px;
+}
+
+.search-icon {
+  display: flex;
+  align-items: center;
+  margin-left: 90px;
+}
+
+.search-icon img {
+  display: flex;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.search-icon p {
+  display: flex;
+  cursor: pointer;
+  font-size: 19px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 10px 20px;
+  margin-left: 30px;
+}
+
+/* <!-- ------------------------cart-------------------------------- --> */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 170px;
+
+}
+
+.container p {
+  display: flex;
+  margin-top: 80px;
+  justify-content: center;
+}
+
+.hr1 {
+  border: 1px solid black;
+  top: 15px;
+  left: 103px;
+}
+
+.para {
+  left: -63px;
+  position: relative;
+}
+
+.cart-description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 148px;
+  margin: 20px;
+}
+
+.img {
+  width: 67px;
+  margin-left: -100px;
+}
+
+.imgs {
+  margin-left: -8px;
+  width: 20px;
+}
+
+.input {
+  width: 30px;
+  font-size: 20px;
+}
+
+.para1 {
+  position: relative;
+  left: 47px;
+}
+
+.para2 {
+  position: relative;
+  left: -26px;
+}
+
+.cart-totals {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: -56px;
+}
+
+.h3 {
+  font-size: 31px;
+  position: relative;
+  left: 130px;
+  top: 30px;
+}
+
+#cart-total1 {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  margin: 50px;
+  text-align: left;
+  grid-gap: 13px;
+}
+
+#cart-total1 p {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: -17px;
+  font-size: 18px;
+  margin: 9px;
+  right: -124px;
+}
+
+#cart-total1 button {
+  position: relative;
+  left: 153px;
+  padding: 8px 20px;
+  color: #fff;
+  background-color: tomato;
+  border: 0px;
+  border-radius: 10px;
+  transition: 0.4s;
+  width: 72%;
+  cursor: pointer;
+}
+
+#cart-total1 button:hover {
+  transform: scale(1.11);
+}
+
+.hr2 {
+  position: relative;
+  width: 480px;
+  top: 114px;
+  left: 127px;
+
+}
+
+.hr3 {
+  position: relative;
+  width: 476px;
+  top: 146px;
+  left: 128px;
+
+}
+
+.cart-total2 {
+  display: flow;
+  justify-content: center;
+
+}
+
+.cart-total2 p {
+  font-size: 19px;
+  position: relative;
+  left: 87px;
+}
+
+.cart-total2 input {
+  position: relative;
+  left: 72px;
+  margin: 20px;
+  width: 173px;
+  padding: 8px 20px;
+  background: lightgray;
+  border: 2px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.cart-total2 button {
+  left: 63px;
+  padding: 9px 40px;
+  position: relative;
+  border: 2px;
+  background: black;
+  border-radius: 11px;
+  color: white;
+  font-size: 20px;
+  transition: 0.3s;
+  cursor: pointer;
+
+}
+
+.cart-total2 button:hover {
+  transform: scale(1.12);
+}
+
+
+
+
+
+
+
+/* <!-- ----------------------footer------------------------ --> */
+.Footer {
+  display: inline-block;
+}
+
+.Footer h1 {
+  margin-left: 290px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.Footer img {
+  margin-left: 260px;
+}
+
+.footer {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 300px;
+  background-color: black;
+
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer1 {
+  display: block;
+  position: relative;
+  left: 95px;
+}
+
+.footer1 img {
+  position: relative;
+  top: 12px;
+}
+
+.footer1 p {
+  color: #fff;
+}
+
+#footer_img {
+  position: relative;
+  top: -13px;
+}
+
+.footer2 {
+  display: block;
+  position: relative;
+  left: 195px;
+}
+
+.footer2 h2 {
+  font-size: 29px;
+  color: tomato;
+}
+
+.footer2 h5 {
+  font-size: 14px;
+  margin: 10px;
+  display: flex;
+  color: whitesmoke;
+
+}
+
+.footer3 h2 {
+  font-size: 29px;
+  color: tomato;
+  position: relative;
+  top: -25px;
+
+}
+
+.footer3 {
+  display: block;
+  position: relative;
+  left: 47px;
+}
+
+.footer3 p {
+  font-size: 16px;
+  margin: 10px;
+  display: flex;
+  color: black;
+
+}
+
+.hr hr {
+  bottom: 32px;
+  width: 245%;
+}
+
+.footer p {
+  color: #fff;
+}

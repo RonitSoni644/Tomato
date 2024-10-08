@@ -1,0 +1,288 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Playfair Display";
+}
+
+hr {
+  bottom: 127px;
+  position: relative;
+  left: 76px;
+  width: 84%;
+}
+
+
+a {
+  color: black;
+  text-decoration: none;
+  outline: none;
+  list-style: none;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+
+}
+
+.logo img {
+  width: 150px;
+  margin-left: 140px;
+  cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  margin-left: 150px;
+  font-size: 19px;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 80px;
+}
+
+.search-icon {
+  display: flex;
+  align-items: center;
+  margin-left: 90px;
+}
+
+.search-icon img {
+  display: flex;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.search-icon p {
+  display: flex;
+  cursor: pointer;
+  font-size: 19px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 10px 20px;
+  margin-left: 30px;
+}
+
+.header_img {
+  width: 80vw;
+  height: 500px;
+  margin-left: 85px;
+  margin-top: 30px;
+}
+
+.col-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+
+}
+
+.form-container form {
+  max-width: 300px;
+  padding: 0 20px;
+  position: absolute;
+  top: 130px;
+  transition: transform 1s;
+}
+.form-container {
+  display: flex;
+  width: 300px;
+  height: 400px;
+  background-color: #fff;
+  position: absolute;
+  top: 173px;
+  left: 486px;
+  background: transparent;
+  border-radius: 20px;
+  border: 2px solid aliceblue;
+  overflow: hidden;
+}
+
+.from-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.form-btn {
+  display: inline-block;
+}
+.from-btn span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+  margin-left: 62px;
+  margin-top: -329px;
+}
+
+#Indicator {
+  width: 100px;
+  border: none;
+  background: #ff523b;
+  height: 3px;
+  margin-top: -39px;
+  transform: translateX(100px);
+  transition: transform 1s;
+  margin-left: -318px;
+}
+
+#LoginForm {
+  left: -300px;
+  margin-top: -22px;
+}
+
+#RegForm {
+  margin-top: -22px;
+
+  left: 0px;
+}
+form input {
+  width: 80%;
+  height: 30px;
+  margin: 10px 0;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  
+}
+form input:hover {
+  transition: 0.5s;
+}
+
+form .btn {
+  width: 85%;
+  border: none;
+  font-size:16px;
+  cursor: pointer;
+  margin: 10px 0;
+  height: 28px;
+  color: white;
+  border-radius: 10px;
+  background-color: tomato;
+}
+
+form .btn:focus {
+  outline: none;
+}
+
+form a {
+  font-size: 15px;
+  margin-left: 66px;
+  color: white;
+}
+.ancher{
+  display: flex;
+  align-items: center;
+color: tomato; 
+font-size: 16px;
+}
+
+/* -----------------------footer------------------------ */
+
+.Footer {
+  display: inline-block;
+}
+
+.Footer h1 {
+  margin-left: 290px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.Footer img {
+  margin-left: 260px;
+}
+
+.footer {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 300px;
+  background-color: black;
+
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer1 {
+  display: block;
+  position: relative;
+  left: 95px;
+}
+
+.footer1 img {
+  position: relative;
+  top: 12px;
+}
+
+.footer1 p {
+  color: #fff;
+}
+
+#footer_img {
+  position: relative;
+  top: -13px;
+}
+
+.footer2 {
+  display: block;
+  position: relative;
+  left: 195px;
+}
+
+.footer2 h2 {
+  font-size: 29px;
+  color: tomato;
+}
+
+.footer2 h5 {
+  font-size: 14px;
+  margin: 10px;
+  display: flex;
+  color: whitesmoke;
+
+}
+
+.footer3 h2 {
+  font-size: 29px;
+  color: tomato;
+  position: relative;
+  top: -25px;
+
+}
+
+.footer3 {
+  display: block;
+  position: relative;
+  left: 47px;
+}
+
+.footer3 p {
+  font-size: 16px;
+  margin: 10px;
+  display: flex;
+  color: black;
+
+}
+
+.hr hr {
+  bottom: 32px;
+  width: 245%;
+}
+
+.footer p {
+  color: #fff;
+}
